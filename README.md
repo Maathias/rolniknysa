@@ -1,0 +1,1 @@
+# rolniknysa.pl
