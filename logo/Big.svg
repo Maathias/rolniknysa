@@ -14,24 +14,24 @@
   <g id="all">
     <g id="accent">
       <polyline id="bottomDiamond" class="cls-1" points="1024.2 1699.24 188.43 1427.51 188.43 1355.46 1024.2 1355.46 1025.23 1355.46 1861 1355.46 1861 1427.51 1025.23 1699.24"/>
-      <rect id="rightTower" class="cls-1" x="1633.53" y="519.09" width="227.47" height="437.44"/>
-      <polygon id="rightMiddle" class="cls-1" points="1342.25 957.56 1616.03 957.56 1616.03 583.94 1484.29 627.17 1342.25 627.17 1342.25 957.56"/>
-      <polygon id="rightSmaller" class="cls-1" points="1194.03 957.56 1326.81 957.56 1326.81 598.35 1194.03 566.44 1194.03 957.56"/>
-      <polygon id="middleRight" class="cls-1" points="1024.71 454.76 1182.19 553.57 1182.19 957.05 1024.71 957.05 1024.71 454.76"/>
       <polygon id="middleLeft" class="cls-1" points="1025.23 454.76 867.75 553.57 867.75 957.05 1025.23 957.05 1025.23 454.76"/>
-      <polygon id="leftSmall" class="cls-1" points="855.91 957.56 723.14 957.56 723.14 598.35 855.91 566.44 855.91 957.56"/>
-      <polygon id="leftMiddle" class="cls-1" points="707.7 957.56 433.91 957.56 433.91 583.94 565.66 627.17 707.7 627.17 707.7 957.56"/>
-      <rect id="leftTower" class="cls-1" x="188.95" y="519.09" width="227.47" height="437.44"/>
+      <polygon id="leftSmall" class="cls-1" points="833.11 957.56 730.11 957.56 730.11 598.35 833.11 566.44 833.11 957.56"/>
+      <polygon id="leftMiddle" class="cls-1" points="694.11 957.56 446.62 957.56 446.62 583.94 565.71 627.17 694.11 627.17 694.11 957.56"/>
+      <polygon id="leftTower" class="cls-1" points="405 956.53 188.94 956.53 188.94 519.09 296.97 519.09 405 519.09 405 956.53"/>
+      <polygon id="middleLeft-2" data-name="middleLeft" class="cls-1" points="1024 454.51 1181.48 553.32 1181.48 956.79 1024 956.79 1024 454.51"/>
+      <polygon id="leftSmall-2" data-name="leftSmall" class="cls-1" points="1216.12 957.31 1319.13 957.31 1319.13 598.09 1216.12 566.18 1216.12 957.31"/>
+      <polygon id="leftMiddle-2" data-name="leftMiddle" class="cls-1" points="1355.12 957.31 1602.61 957.31 1602.61 583.68 1483.52 626.91 1355.12 626.91 1355.12 957.31"/>
+      <polygon id="leftTower-2" data-name="leftTower" class="cls-1" points="1644.23 956.28 1860.29 956.28 1860.29 518.84 1752.26 518.84 1644.23 518.84 1644.23 956.28"/>
     </g>
     <g id="topBuilding">
-      <rect id="rightTower-2" data-name="rightTower" class="cls-2" x="1633.53" y="559.09" width="227.47" height="437.44"/>
-      <polygon id="rightMiddle-2" data-name="rightMiddle" class="cls-2" points="1342.25 997.56 1616.03 997.56 1616.03 623.94 1484.29 667.17 1342.25 667.17 1342.25 997.56"/>
-      <polygon id="rightSmaller-2" data-name="rightSmaller" class="cls-2" points="1194.03 997.56 1326.81 997.56 1326.81 638.35 1194.03 606.44 1194.03 997.56"/>
-      <polygon id="middleRight-2" data-name="middleRight" class="cls-2" points="1024.71 494.76 1182.19 593.57 1182.19 997.05 1024.71 997.05 1024.71 494.76"/>
-      <polygon id="middleLeft-2" data-name="middleLeft" class="cls-2" points="1025.23 494.76 867.75 593.57 867.75 997.05 1025.23 997.05 1025.23 494.76"/>
-      <polygon id="leftSmall-2" data-name="leftSmall" class="cls-2" points="855.91 997.56 723.14 997.56 723.14 638.35 855.91 606.44 855.91 997.56"/>
-      <polygon id="leftMiddle-2" data-name="leftMiddle" class="cls-2" points="707.7 997.56 433.91 997.56 433.91 623.94 565.66 667.17 707.7 667.17 707.7 997.56"/>
-      <rect id="leftTower-2" data-name="leftTower" class="cls-2" x="188.95" y="559.09" width="227.47" height="437.44"/>
+      <polygon id="middleLeft-3" data-name="middleLeft" class="cls-2" points="1025.23 494.76 867.75 593.57 867.75 997.05 1025.23 997.05 1025.23 494.76"/>
+      <polygon id="leftSmall-3" data-name="leftSmall" class="cls-2" points="833.11 997.56 730.11 997.56 730.11 638.35 833.11 606.44 833.11 997.56"/>
+      <polygon id="leftMiddle-3" data-name="leftMiddle" class="cls-2" points="694.11 997.56 446.62 997.56 446.62 623.94 565.71 667.17 694.11 667.17 694.11 997.56"/>
+      <polygon id="leftTower-3" data-name="leftTower" class="cls-2" points="405 996.53 188.94 996.53 188.94 559.09 296.97 559.09 405 559.09 405 996.53"/>
+      <polygon id="middleLeft-4" data-name="middleLeft" class="cls-2" points="1024 494.51 1181.48 593.32 1181.48 996.79 1024 996.79 1024 494.51"/>
+      <polygon id="leftSmall-4" data-name="leftSmall" class="cls-2" points="1216.12 997.31 1319.13 997.31 1319.13 638.09 1216.12 606.18 1216.12 997.31"/>
+      <polygon id="leftMiddle-4" data-name="leftMiddle" class="cls-2" points="1355.12 997.31 1602.61 997.31 1602.61 623.68 1483.52 666.91 1355.12 666.91 1355.12 997.31"/>
+      <polygon id="leftTower-4" data-name="leftTower" class="cls-2" points="1644.23 996.28 1860.29 996.28 1860.29 558.84 1752.26 558.84 1644.23 558.84 1644.23 996.28"/>
     </g>
     <polyline id="bottomDiamond-2" data-name="bottomDiamond" class="cls-2" points="1024.2 1739.24 188.43 1467.51 188.43 1395.46 1024.2 1395.46 1025.23 1395.46 1861 1395.46 1861 1467.51 1025.23 1739.24"/>
     <g id="rolnik">
