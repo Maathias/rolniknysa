@@ -9,12 +9,17 @@
 
     <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" href="static/logo/Favicon@32.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/app.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="static/logo/Big.svg" alt="Rolnik logo" id="headLogo" />
-        <h3>Zespół Szkół i Placówek Oświatowych w Nysie</h3>
+        <!-- <img src="static/logo/Big.svg" alt="Rolnik logo" id="headLogo" /> -->
+        <object type="image/svg+xml" data="static/logo/Big.svg" id="headLogo">
+            Your browser does not support SVG
+        </object>
+        <span>Zespół Szkół i Placówek Oświatowych w Nysie</span>
         <nav>
             <span class='navElement'>Element 1</span>
             <span class='navElement'>Element 2</span>
@@ -27,15 +32,14 @@
     <main>
         <section id='feed'>
             <article class='news'>
+                <header>Lorem ipsum</header>
                 <img src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="" />
                 <time datetime="2019-10-14">14 października 2019r.</time>
-                <header>Lorem ipsum</header>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illum iusto dignissimos dolorum sed
                     fuga minima beatae. Possimus deleniti non dolor doloribus sapiente incidunt excepturi vitae
                     perspiciatis quia, culpa rerum!</p>
             </article>
         </section>
-        <aside>aside</aside>
     </main>
     <footer>footer</footer>
 </body>

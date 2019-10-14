@@ -1,36 +1,65 @@
 body {
-	margin: 0px	
-}
-
-#headLogo {
-    height: 150px;
+  margin: 0px;
+  font-family: "Roboto";
 }
 
 @media only screen and (min-width: 768px) {
-	#headLogo {
-		height: 250px;
-	}
+  #headLogo {
+    height: 250px;
+  }
 }
 
-div, header, nav, section, aside, footer, main {
-    border: 1px dashed black;
+div,
+header,
+nav,
+section,
+aside,
+footer,
+main {
+  border: 1px dashed black;
 }
 
 head {
-    width: 100%;
+  width: 100%;
 }
 
 #feed > article.news > img {
-    max-width: 100px;
-    max-height: 100px;
-    vertical-align: text-top;
+  max-width: 100px;
+  max-height: 100px;
+  vertical-align: text-top;
 }
 
 #feed > article.news > header {
-    display: flexbox;
+  display: flexbox;
 }
 
 main {
-    width: 75%;
-    margin: auto;
+  width: 75%;
+  margin: auto;
+}
+
+iframe {
+  border: 0;
+}
+
+#headLogo {
+  height: 150px;
+  vertical-align: middle;
+}
+
+body > header > span {
+}
+
+body > header > nav {
+  background-color: green;
+  user-select: none;
+}
+
+body > header > nav > span.navElement {
+  border: 1px solid black;
+}
+
+body > header > nav > span.navElement:hover {
+  background-color: darkgreen;
+  cursor: pointer;
 }
