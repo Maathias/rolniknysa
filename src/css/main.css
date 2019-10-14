@@ -2,18 +2,35 @@ body {
 	margin: 0px	
 }
 
-#container{
-	background: #e7e9e7;
-	width: 100%;
-	height: 100%;
+#headLogo {
+    height: 150px;
 }
 
-#headLogo{
-	height: 150px;
-}
-
-@media only screen and (min-width: 768px){
-	#headLogo{
+@media only screen and (min-width: 768px) {
+	#headLogo {
 		height: 250px;
 	}
+}
+
+div, header, nav, section, aside, footer, main {
+    border: 1px dashed black;
+}
+
+head {
+    width: 100%;
+}
+
+#feed > article.news > img {
+    max-width: 100px;
+    max-height: 100px;
+    vertical-align: text-top;
+}
+
+#feed > article.news > header {
+    display: flexbox;
+}
+
+main {
+    width: 75%;
+    margin: auto;
 }
