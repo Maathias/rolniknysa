@@ -9,7 +9,7 @@ body {
   }
 }
 
-div,
+/* div,
 header,
 nav,
 section,
@@ -17,7 +17,7 @@ aside,
 footer,
 main {
   border: 1px dashed black;
-}
+} */
 
 head {
   width: 100%;
@@ -43,21 +43,65 @@ iframe {
 }
 
 #headLogo {
-  height: 150px;
+  width: 80vw;
+  padding: calc((100vh - 80vw) / 2) 10vw;
   vertical-align: middle;
 }
 
-body > header > span {
-}
-
 body > header > nav {
-  background-color: green;
+  background-color: #195202;
   user-select: none;
+  widows: 100%;
 }
 
-body > header > nav > span.navElement {
-  border: 1px solid black;
+.navList,
+.navSubList{
+  list-style: none;
+  border: 0px;
+  padding: 0px;
 }
+
+.navEl,
+.navSubEl{
+  cursor: pointer;
+}
+
+.navSubEl{
+  background: #00a000;
+  padding: 10px 0px;
+  border-bottom: 1px solid white;
+}
+
+.navList {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.navEl {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 2px solid white;
+}
+
+.navSubList{
+  height: 0px;
+  overflow: hidden;
+}
+
+.elActive>.navSubList{
+  height: auto;
+}
+
+/* body > header > nav > span.navElement {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 2px solid white;
+} */
 
 body > header > nav > span.navElement:hover {
   background-color: darkgreen;
