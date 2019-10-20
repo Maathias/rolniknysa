@@ -1,0 +1,7 @@
+.logo {
+  background-image: url("/src/static/tyl.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+}
