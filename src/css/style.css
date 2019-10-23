@@ -1,0 +1,99 @@
+.logo {
+  background-image: url("/static/tyl.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15vh;
+}
+
+.bg-blue {
+  background-color: #1976d2;
+}
+
+.bg-red {
+  background-color: #d32f2f;
+}
+
+.bg-purple {
+  background-color: #7b1fa2;
+}
+
+.bg-green {
+  background-color: #388e3c;
+}
+
+a[class^="carousel-control-"]:hover {
+  background: #00000022;
+}
+
+#carouselMain{
+  border-bottom: 1px solid #343a40;
+  padding: 15px 0px;
+}
+
+#navbarSupportedContent > form > input {
+  width: calc(100% - 83px);
+  margin-right: 8px;
+}
+
+#navbarSupportedContent > form > button {
+  width: 75px;
+}
+
+#navbarSupportedContent > ul {
+  margin-top: 8px;
+  border-top: 1px solid hsla(210, 10%, 18%, 1);
+}
+
+.articleImg {
+  width: 100%;
+}
+
+.articleTags {
+  width: 100%;
+  background: #00000055;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.articleTags > .articleTag {
+  background: #00000033;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* .card-text{
+  max-height: 155px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+} */
+
+/* .card-img-top {
+  max-height: 100px;
+  width: auto;
+} */
+
+.row.container-footer{
+  border-top: 1px solid #343a40;
+  margin: 20px 0px;
+  font-size: 0.8rem;
+}
+
+.navbar-nav > li.nav-item{
+  border-bottom: 1px dashed #292e32;
+}
+
+.card-footer {
+  background-color: #eceff1;
+}
+
+@media (min-width: 992px) {
+  #navbarSupportedContent > ul {
+    margin-top: initial;
+    border-top: initial;
+  }
+
+  .navbar-nav > li.nav-item{
+    border-bottom: initial;
+  }
+}
