@@ -26,11 +26,6 @@ a[class^="carousel-control-"]:hover {
   background: #00000022;
 }
 
-#carouselMain{
-  border-bottom: 1px solid #343a40;
-  padding: 15px 0px;
-}
-
 #navbarSupportedContent > form > input {
   width: calc(100% - 83px);
   margin-right: 8px;
