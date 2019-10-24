@@ -62,17 +62,6 @@ a[class^="carousel-control-"]:hover {
   border-radius: 4px;
 }
 
-/* .card-text{
-  max-height: 155px;
-  overflow:hidden;
-  text-overflow:ellipsis;
-} */
-
-/* .card-img-top {
-  max-height: 100px;
-  width: auto;
-} */
-
 .row.container-footer{
   border-top: 1px solid #343a40;
   margin: 20px 0px;
@@ -96,4 +85,13 @@ a[class^="carousel-control-"]:hover {
   .navbar-nav > li.nav-item{
     border-bottom: initial;
   }
+
+  ul.navbar-nav li.dropdown:hover > div.dropdown-menu {
+    margin: 0;
+    display: block;    
+  }
+}
+
+.dropdown-item:hover {
+  background-color: rgba(165, 165, 165, 0.5);
 }
