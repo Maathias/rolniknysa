@@ -1,2 +1,2 @@
 # rolniknysa.pl
-![Rolnik](logo/Big.png)
+![Rolnik](static/logo/Big.png)
